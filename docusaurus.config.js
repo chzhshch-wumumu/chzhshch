@@ -9,7 +9,7 @@ const config = {
   title: '无木目',
   tagline: '成为更好的自己',
   url: 'https://chzhshch-wumumu.github.io',
-  baseUrl: '/',
+  baseUrl: '/chzhshch/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -51,9 +51,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'chzhshchintro',
             position: 'left',
-            label: 'Tutorial',
+            label: '缠论',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -67,17 +67,17 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '缠论',
+                to: '/docs/chzhshchintro',
               },
             ],
           },
           {
-            title: 'Community',
-            items: [
+            title: '社区',
+            /*items: [
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
@@ -90,11 +90,11 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
               },
-            ],
+            ],*/
           },
           {
-            title: 'More',
-            items: [
+            title: '更多',
+            /*items: [
               {
                 label: 'Blog',
                 to: '/blog',
@@ -103,7 +103,7 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
-            ],
+            ],*/
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
