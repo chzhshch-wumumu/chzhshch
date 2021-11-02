@@ -18,7 +18,7 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'intro',
+    'chzhshchintro',
     {
       type: 'category',
       label: '缠师原版',
