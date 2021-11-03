@@ -59,7 +59,7 @@ const config = {
             type: 'doc',
             docId: 'bookintro',
             position: 'left',
-            label: '书单',
+            label: '读书',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -78,6 +78,10 @@ const config = {
               {
                 label: '缠论',
                 to: '/docs/chzhshchintro',
+              },
+              {
+                label: '读书',
+                to: '/docs/bookintro',
               },
             ],
           },
