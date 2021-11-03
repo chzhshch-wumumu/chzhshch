@@ -55,6 +55,12 @@ const config = {
             position: 'left',
             label: '缠论',
           },
+          {
+            type: 'doc',
+            docId: 'bookintro',
+            position: 'left',
+            label: '书单',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
