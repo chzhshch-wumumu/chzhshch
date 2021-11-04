@@ -51,13 +51,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'chzhshchintro',
+            docId: 'chzhshch/chzhshchintro',
             position: 'left',
             label: '缠论',
           },
           {
             type: 'doc',
-            docId: 'bookintro',
+            docId: 'book/bookintro',
             position: 'left',
             label: '读书',
           },
@@ -77,11 +77,11 @@ const config = {
             items: [
               {
                 label: '缠论',
-                to: '/docs/chzhshchintro',
+                to: '/docs/chzhshch/chzhshchintro',
               },
               {
                 label: '读书',
-                to: '/docs/bookintro',
+                to: '/docs/book/bookintro',
               },
             ],
           },

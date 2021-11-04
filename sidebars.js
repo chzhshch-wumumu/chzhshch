@@ -18,34 +18,34 @@ const sidebars = {
 
   // But you can create a sidebar manually
   chzhshchSidebar: [
-    'chzhshchintro',
+    'chzhshch/chzhshchintro',
     {
       type: 'category',
       label: '缠师原版',
-      items: ['chzhshch001', 
-              'chzhshch002', 
-              'chzhshch003', 
-              'chzhshch004', 
-              'chzhshch005', 
-              'chzhshch006',
-              'chzhshch007', 
-              'chzhshch008'],
+      items: ['chzhshch/original/chzhshch001', 
+              'chzhshch/original/chzhshch002', 
+              'chzhshch/original/chzhshch003', 
+              'chzhshch/original/chzhshch004', 
+              'chzhshch/original/chzhshch005', 
+              'chzhshch/original/chzhshch006',
+              'chzhshch/original/chzhshch007', 
+              'chzhshch/original/chzhshch008'],
     },
     {
       type: 'category',
       label: '无木目版',
-      items: ['vchzhshch001', 
-              'vchzhshch002', 
-              'vchzhshch003', 
-              'vchzhshch004', 
-              'vchzhshch005', 
-              'vchzhshch006'],
+      items: ['chzhshch/vwumumu/vchzhshch001', 
+              'chzhshch/vwumumu/vchzhshch002', 
+              'chzhshch/vwumumu/vchzhshch003', 
+              'chzhshch/vwumumu/vchzhshch004', 
+              'chzhshch/vwumumu/vchzhshch005', 
+              'chzhshch/vwumumu/vchzhshch006'],
       collapsible: false
     },
   ],
   bookSidebar: [
-    'bookintro',
-    'beyond-feelings',
+    'book/bookintro',
+    'book/beyond-feelings',
   ],
 };
 
